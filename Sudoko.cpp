@@ -22,8 +22,8 @@ bool isSafe(int board[N][N], int row, int col, int num) {
 void printBoard(int grid[N][N]) {
     system("cls");
     cout << "\t\t\t<================================================================================>" << endl
-         << "\t\t\t|                        WELCOME TO SUDOKU Game!                                 |" << endl
-         << "\t\t\t|       Fill in the missing numbers(represented by 0) to solve the puzzle.       |" << endl
+         << "\t\t\t|                        WELCOME IN MY SUDOKO GAME                               |" << endl
+         << "\t\t\t|                       Fill in the missing numbers                              |" << endl
          << "\t\t\t<================================================================================>" << endl;
     for (int row = 0; row < N; ++row) {
         for (int col = 0; col < N; ++col)
